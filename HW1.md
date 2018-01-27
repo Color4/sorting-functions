@@ -12,10 +12,10 @@
 * Number of assignments: 4
 * Number of conditionals: 4
 
-![QuickSort](/Users/Christa.Caggiano/Documents/UCSF_year1/algorithms/example/Screen Shot 2018-01-26 at 11.27.25 PM.png)
+![QuickSort](https://github.com/christacaggiano/example/blob/master/Screen%20Shot%202018-01-26%20at%2011.27.25%20PM.png)
 
 
-![BubbleSort](/Users/Christa.Caggiano/Documents/UCSF_year1/algorithms/example/Screen Shot 2018-01-26 at 11.28.18 PM.png)
+![BubbleSort](https://github.com/christacaggiano/example/blob/master/Screen%20Shot%202018-01-26%20at%2011.28.18%20PM.png)
 
 ## Complexity
 
