@@ -2,7 +2,7 @@
 # to shows how to do relative import functions from another python file in
 # the same directory as this one.
 import numpy as np
-from .algs import quicksort, bubblesort
+from .quick_sort import quicksort, bubblesort
 
 def run_stuff():
     """

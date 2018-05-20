@@ -1,38 +1,32 @@
-# example
+# HW 1
+##### Christa Caggiano
+##### 26 Jan 2018
 
-[![Build
-Status](https://travis-ci.org/christacaggiano/example.svg?branch=master)](https://travis-ci.org/christacaggiano/example)
+## Number of Conditionals and Loops
 
-Example python project with testing.
+**Bubble sort**
+* Number of assignments: 4
+* Number of conditionals 1
 
-## usage
+**Quick sort**
+* Number of assignments: 4
+* Number of conditionals: 4
 
-To use the package, first make a new conda environment and activate it
+![QuickSort](https://github.com/christacaggiano/example/blob/master/Screen%20Shot%202018-01-26%20at%2011.27.25%20PM.png)
 
-```
-conda create -n exampleenv python=3
-source activate exampleenv
-```
 
-then run
+![BubbleSort](https://github.com/christacaggiano/example/blob/master/Screen%20Shot%202018-01-26%20at%2011.28.18%20PM.png)
 
-```
-conda install --yes --file requirements.txt
-```
+## Complexity
 
-to install all the dependencies in `requirements.txt`. Then the package's
-main function (located in `example/__main__.py`) can be run as follows
+My **Bubble sort** algorithm is O(n<sup>2</sup>) because each item in the list is accessed once in the for loop = *N* times. If the list was completely sorted, the best case, the loop will finish and the run time would be O(n). In the worst case, a completely unsorted list (ex l = [5, 4, 3, 2, 1]) the algorithm will need to go through the list *N* times in the original loop, where the 5 will bubble up. Next, bubble sort will go through the loop again until 4 bubbles up. This will continue for each number in the list, a total of *N* times. This leads to a total runtime of O(n<sup>2</sup>)
 
-```
-python -m example
-```
+**Quick sort** is O(n log(n)) because the original transversal of the list is *N*, needed to partition the list into two lists. With each recursive step my algorithm takes, however, the size of the list the algorithm traverses is halved, meaning each subsequent step in log(n). Thus, the overall average complexity is O(n log(n))
 
-## testing
+## Github Repo
 
-Testing is as simple as running
+https://github.com/christacaggiano/example
 
-```
-python -m pytest
-```
+## Travis Build
 
-from the root directory of this project.
+https://travis-ci.org/christacaggiano/example
