@@ -3,10 +3,10 @@
 # author <christa.caggiano@ucsf.edu>
 
 import random
-import matplotlib.pyplot as plt
 
 conditional = 0
 assignments = 0
+
 
 def quick_sort(l):
     """
