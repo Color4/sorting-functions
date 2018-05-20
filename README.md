@@ -32,8 +32,8 @@ the number of assignments is slightly steeper than linear.
 
 ## Github Repo
 
-https://github.com/christacaggiano/example
+https://github.com/christacaggiano/Sorting-Functions
 
 ## Travis Build
 
-https://travis-ci.org/christacaggiano/example
+https://github.com/christacaggiano/Sorting-Functions
