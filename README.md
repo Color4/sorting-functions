@@ -4,7 +4,7 @@
 
 ## Number of Conditionals and Loops
 
-![](Time_Complexity.png "Time_Complexity")
+![Number of assignments and conditionals for 100 random vectors.](Time_Complexity.png "Number of assignments and conditionals for 100 random vectors.")
 
 
 ## Complexity
