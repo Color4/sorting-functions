@@ -10,7 +10,7 @@ class TestBubbleSort(object):
 
     def test_empty(self):  # test empty list
         x = []
-        assert bubble_sort.quick_sort(x) == []
+        assert bubble_sort.bubble_sort(x) == []
 
     def test_one_item(self):  # test one item list
         x = [1]
