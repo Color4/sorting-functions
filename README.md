@@ -4,9 +4,16 @@
 ##### Christa Caggiano
 ##### 26 Jan 2018
 
+## Use
+
+`python sorting/main.py`
+
+
 ## Number of Conditionals and Loops
 
-![Number of assignments and conditionals for 100 random vectors.](Time_Complexity.png "Number of assignments and conditionals for 100 random vectors.")
+To assess the runtime of each algorithm, number of conditionals and loop iterations can be counted. 
+
+![Fig1.](Time_Complexity.png "")
 
 **Plots 1-5:** Number of assignments and conditionals for 100 randomly generated vectors of size _n_. 
 
@@ -29,11 +36,3 @@ With each recursive step my algorithm takes, however, the size of the list the a
 subsequent step in log(n). Thus, the overall average complexity is O(n log(n)). This is roughly illustrated in the above graph where 
 the number of assignments is slightly steeper than linear. 
 
-
-## Github Repo
-
-https://github.com/christacaggiano/Sorting-Functions
-
-## Travis Build
-
-https://github.com/christacaggiano/Sorting-Functions
